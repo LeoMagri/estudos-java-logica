@@ -8,6 +8,7 @@ public class PreparadorDadosBI {
 
         double totalIntegrada = 0;
         double totalPendente = 0;
+        double totalNaoIntegrada = 0;
         int faturasContabilizadas = 0;
 
         // Lógica de Filtro (O que o BI vai consumir)
@@ -18,15 +19,21 @@ public class PreparadorDadosBI {
                 System.out.println("Fatura " + (i+1) + ": Status INTEGRADA - Processada.");
             }
             else if (status[i]. equals("PENDENTE")) {
-                totalPendente += faturas[i]
+                totalPendente += faturas[i];
                     faturasContabilizadas++;
                 System.out.println("Fatura " + (i+1) + ": Status PENDENTE - Enviada para revisão.");
+            }
+            else if (status[i].equals("NAO INTEGRADA")) {
+                totalNaoIntegrada += faturas[i];
+                    faturasContabilizadas++;
+                System.out.println("Fatura " + (i+1) + ": Status NAO INTEGRADA - Nao Processada.");
             }
         }
 
         System.out.println("\n--- Resumo Final ---");
-        System.out.println("Total Integrado: R$ " + totalParaDashboard);
+        System.out.println("Total Integrado: R$ " + totalIntegrada);
         System.out.println("Total Pendentes: R$ " + totalPendente);
+        System.out.println("Total Nao Integrada: R$ " + totalNaoIntegrada);
         System.out.println("Qtd Total de Faturas no Gráfico: " + faturasContabilizadas);
     }
 }
