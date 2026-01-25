@@ -16,7 +16,7 @@ Este repositório documenta minha evolução técnica na transição para o dese
 ### 3. Preparador de Dados para BI (`PreparadorDadosBI.java`)
 - **Cenário:** Pré-processamento de faturas do sistema SGU para alimentação de dashboards.
 - **Lógica:** Filtra e totaliza faturas por status (INTEGRADA, PENDENTE, NÃO INTEGRADA).
-- **Objetivo:** Demonstrar com a lógica Java pode "limpar" e organizar dados brutos antes de chegarem às ferramentas de Analytics como Power BI.
+- **Objetivo:** Demonstrar com a lógica Java pode "limpar" e organizar dados brutos antes de chegarem às ferramentas de `Analytics` como Power BI.
 
 ## Tecnologias e Ferramentas
 - **Linguagem:** Java
