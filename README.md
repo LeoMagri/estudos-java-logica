@@ -17,3 +17,4 @@ Este repositório documenta minha evolução técnica na transição para o dese
 - **Linguagem:** Java
 - **Banco de Dados:** SQL e PL/SQL (foco em PostgreSQL)
 - **Domínio de Negócio:** Sistemas de Saúde (SGU/Sapia/Sistemas Unimed)
+- **Análise de Dados:** Power BI
