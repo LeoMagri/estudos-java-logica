@@ -16,4 +16,4 @@ Este repositório documenta minha evolução técnica na transição para o dese
 ## Tecnologias e Ferramentas
 - **Linguagem:** Java
 - **Banco de Dados:** SQL e PL/SQL (foco em PostgreSQL)
-- **Domínio de Negócio:** Sistemas de Saúde (SGU/Sapia)
+- **Domínio de Negócio:** Sistemas de Saúde (SGU/Sapia/Sistemas Unimed)
