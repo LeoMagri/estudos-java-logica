@@ -13,7 +13,7 @@ Este repositório documenta minha evolução técnica na transição para o dese
 - **Cenário:** Automação de cálculos financeiros/percentuais.
 - **Conceitos:** Tipos de dados (`double`), operações matemáticas e variáveis.
 
-### 3. Preparador de Dados para BI (`PreparadorDadosBI.java´)
+### 3. Preparador de Dados para BI (`PreparadorDadosBI.java`)
 - **Cenário:** Pré-processamento de faturas do sistema SGU para alimentação de dashboards.
 - **Lógica:** Filtra e totaliza faturas por status (INTEGRADA, PENDENTE, NÃO INTEGRADA).
 - **Objetivo:** Demonstrar com a lógica Java pode "limpar" e organizar dados brutos antes de chegarem às ferramentas de Analytics como Power BI.
