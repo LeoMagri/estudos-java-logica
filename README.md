@@ -1,6 +1,6 @@
 # 💻 Desenvolvimento de Sistemas & Lógica de Negócio
 
-Este repositório documenta minha evolução técnica na transição para o desenvolvimento Java, aplicando conceitos de lógica em cenários reais de Análise de Sistemas.
+Este projeto demonstra a integração de consultas SQL com lógica Java para automatizar a conferência de regras de negócio que hoje são validadas no Sapia
 
 ##  Projetos Inclusos:
 
@@ -17,6 +17,11 @@ Este repositório documenta minha evolução técnica na transição para o dese
 - **Cenário:** Pré-processamento de faturas do sistema SGU para alimentação de dashboards.
 - **Lógica:** Filtra e totaliza faturas por status (INTEGRADA, PENDENTE, NÃO INTEGRADA).
 - **Objetivo:** Demonstrar como a lógica Java pode "limpar" e organizar dados brutos antes de chegarem às ferramentas de `Analytics` como Power BI.
+
+### 4. Automação de Auditoria Sapia (`automacao-sistemas-saude/`)
+- **Cenário:** Integração entre consultas `SQL` e validação `Java`.
+- **Lógica:** Extração de faturas com carência pendente e aplicação de regras de glosa automática.
+- **Diferencial:** Demonstra o fluxo completo do dado, desde a query no banco de dados até a decisão lógica no código.
 
 ## Tecnologias e Ferramentas
 - **Linguagem:** Java
